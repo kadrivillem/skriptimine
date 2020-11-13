@@ -26,3 +26,13 @@ b) git remote kontroll
 git remote -v
 
 
+põhikasutamine:
+
+a) pane fail jälgimisele:
+git add failinimi
+
+b) lisa kirjeldus muudatuse kohta
+git commit -m "lühikirjelduse lause"
+
+c) lisa kaugrepositooriumi
+git push -uf skriptimine master
