@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# tänane kuupäev, kellaaeg, kaelnder
+
+echo "Today is $(date)"
+
+echo "$(cal)"

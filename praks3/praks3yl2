@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# kes on eesti president, muutujatega sript
+
+aasta="2016"
+
+president="Kersti Kaljulaid"
+
+lause_keskosa=". aastal valiti Eesti presidendiks"
+
+echo "$aasta$lause_keskosa $president"
+
+
+

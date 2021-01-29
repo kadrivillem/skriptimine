@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# mitu bussi saab reisijaid täis ja mitu inimest üle jääb
+
+	echo "Mitu reisijat on?"
+
+		read reisijad
+
+	echo "Mitu kohta on ühes bussis?"
+
+		read kohad
+
+			bussid=`echo "$reisijad/$kohad" | bc`
+
+	echo "Täielikult on täidetud $bussid bussi."
+
+			ylejaanud=`echo "$reisijad-($bussid*$kohad)" | bc`
+
+	echo "Üle jäi $ylejaanud reisijat."
