@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# paaris või paaritu arv
+
+	echo "Sisesta suvaline täisarv"
+
+		read arv
+
+if [ $(($arv%2)) -eq 0 ]
+
+then
+
+	echo "$arv on paaris."
+
+else
+
+	echo "$arv on paaritu."
+
+fi
+
