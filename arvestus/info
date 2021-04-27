@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# tänane info
+# Kadri Villem
+# skript tervitab sisselogitud kasutajat ja teatab tänase kuupäeva ja kellaaja.
+
+echo "Tere, $USER!"
+
+echo "Täna on $(date +"%d.%m.%y"), kell on $(date +%T)"
+
+
