@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+# kujundi skript Kadri Villem
+# ridade arvu sisestamisel koostab skript tärnidest tagurpidi kolmnurga
+
+
+echo "Sisesta ridade arv"
+
+	read rida
+
+
+for (( i = $rida; i >= 1; i-- ))
+
+do 
+
+	for (( j = 1; j <= $i; j++ ))
+
+	do echo -n "* "
+
+	done
+
+echo "" 
+
+done
