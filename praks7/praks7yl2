@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# ruudustik etteantud suurusega
+
+echo "Sisesta ridade arv"
+
+	read rida
+
+echo "Sisesta tärnide arv"
+
+	read tarnid
+
+for (( i = 1; i <= $rida; i++ ))
+
+do 
+
+	for (( j = 1 ; j <= $tarnid; j++ ))
+	do echo -n "* "
+
+	done
+
+echo "" 
+
+done
