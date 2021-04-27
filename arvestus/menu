@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# skript menu
+# Kadri Villem
+# menüü valik, kasutaja peab valima, vastavalt valikule kommentaar
+
+
+echo "Tänane menüü:
+	1) liha ja kartulid
+	2) kala ja krõpsud
+	3) supp ja salat"
+
+echo "Palun tee oma valik sisestades sobiv number"
+
+	read number
+
+if [ $number = 1 ]
+
+then
+echo "Väga maitsev, aga jälgi oma tervist!
+Head isu!"
+
+elif [ $number = 2 ]
+
+then
+echo "Briti toit on maitsev!
+Head isu!"
+
+elif [ $number = 3 ]
+
+then
+echo "Nii tervislik ja igav...
+Head isu!"
+
+else 
+
+	echo "Sellist valikut menüüs ei ole"
+
+fi
